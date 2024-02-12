@@ -16,7 +16,7 @@ public class CourierDeletionTest {
     @Test
     @DisplayName("It's possible to delete a courier")
     public void deleteCourierTest(){
-        //Setup
+        //Preconditions
         CourierCredentials credentials = new CourierCredentials(CourierCreationTest.sampleLogin,
                 CourierCreationTest.samplePassword);
         loginSteps.loginCourier(credentials);
